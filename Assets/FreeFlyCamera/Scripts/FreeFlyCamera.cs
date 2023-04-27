@@ -1,16 +1,16 @@
 ﻿//===========================================================================//
 //                       FreeFlyCamera (Version 1.2)                         //
 //                        (c) 2019 Sergey Stafeyev                           //
-//===========================================================================//
+//===========================================================================////////////
 
 using UnityEngine;
 
 [RequireComponent(typeof(Camera))]
 public class FreeFlyCamera : MonoBehaviour
-{
+{ 
     #region UI
 
-    [Space]
+    [Space] 
 
     [SerializeField]
     [Tooltip("The script is currently active")]
